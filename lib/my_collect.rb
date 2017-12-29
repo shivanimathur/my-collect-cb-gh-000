@@ -8,6 +8,7 @@ def my_collect(array)
   else
     while i < array.size
       array[i].upcase
+      i += 1
     end
   end
 end
