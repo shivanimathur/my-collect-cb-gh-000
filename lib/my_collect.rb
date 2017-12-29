@@ -5,5 +5,9 @@ def my_collect(array)
       array[i].split(" ").first
       i += 1
     end
+  else
+    while i < array.size
+      array[i].upcase
+    end
   end
 end
